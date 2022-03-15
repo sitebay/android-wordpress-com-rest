@@ -16,12 +16,12 @@ public class RestClient {
     public static enum REST_CLIENT_VERSIONS {V0, V1, V1_1, V1_2, V1_3, V2}
     public static final String PARAMS_ENCODING = "UTF-8";
 
-    protected static final String REST_API_ENDPOINT_URL_V0 = "https://mytest.sitebay.org/api/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V1 = "https://mytest.sitebay.org/api/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V1_1 = "https://mytest.sitebay.org/api/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V1_2 = "https://mytest.sitebay.org/api/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V1_3 = "https://mytest.sitebay.org/api/v1/";
-    protected static final String REST_API_ENDPOINT_URL_V2 = "https://mytest.sitebay.org/api/v1/";
+    protected static final String REST_API_ENDPOINT_URL_V0 = "https://mytest.sitebay.org/api/v1/mobile";
+    protected static final String REST_API_ENDPOINT_URL_V1 = "https://mytest.sitebay.org/api/v1/mobile";
+    protected static final String REST_API_ENDPOINT_URL_V1_1 = "https://mytest.sitebay.org/api/v1/mobile";
+    protected static final String REST_API_ENDPOINT_URL_V1_2 = "https://mytest.sitebay.org/api/v1/mobile";
+    protected static final String REST_API_ENDPOINT_URL_V1_3 = "https://mytest.sitebay.org/api/v1/mobile";
+    protected static final String REST_API_ENDPOINT_URL_V2 = "https://mytest.sitebay.org/api/v1/mobile";
 
     private RequestQueue mQueue;
     private String mAccessToken;
