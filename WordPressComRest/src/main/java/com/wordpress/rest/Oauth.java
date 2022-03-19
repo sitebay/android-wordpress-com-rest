@@ -17,10 +17,10 @@ import java.util.Map;
 public class Oauth {
     public static final String TAG = "WordPressREST";
 
-    public static final String AUTHORIZE_ENDPOINT = "https://mytest.sitebay.org/oauth2/authorize";
+    public static final String AUTHORIZE_ENDPOINT = "https://my.sitebay.org/oauth2/authorize";
     private static final String AUTHORIZED_ENDPOINT_FORMAT = "%s?client_id=%s&redirect_uri=%s&response_type=code";
 
-    public static final String TOKEN_ENDPOINT = "https://mytest.sitebay.org/oauth2/token";
+    public static final String TOKEN_ENDPOINT = "https://my.sitebay.org/oauth2/token";
 
     public static final String CLIENT_ID_PARAM_NAME = "client_id";
     public static final String REDIRECT_URI_PARAM_NAME = "redirect_uri";

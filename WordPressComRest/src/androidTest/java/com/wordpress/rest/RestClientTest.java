@@ -10,7 +10,7 @@ public class RestClientTest extends AndroidTestCase {
         String path = "/sites/mobileprojects.wordpress.com/posts";
         RestClient restClient = new RestClient(null);
         String url = restClient.getAbsoluteURL(path);
-        String expected = String.format("https://mytest.sitebay.org/rest/v1%s", path);
+        String expected = String.format("https://my.sitebay.org/rest/v1%s", path);
         assertEquals(expected, url);
     }
 
@@ -30,7 +30,7 @@ public class RestClientTest extends AndroidTestCase {
         params.put("a", "1");
         params.put("b", "c");
         String url = restClient.getAbsoluteURL("test", params);
-        String expected = "https://mytest.sitebay.org/rest/v1/test?a=1&b=c";
+        String expected = "https://my.sitebay.org/rest/v1/test?a=1&b=c";
         assertEquals(expected, url);
     }
 }
