@@ -20,7 +20,7 @@ public class OauthTest extends AndroidTestCase {
         String url = mClient.getAuthorizationURL();
 
         String expected = String.format(
-                "https://mytest.sitebay.org/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code",
+                "https://my.sitebay.org/f/api/v1/mobile/oauth2/authorize?client_id=%s&redirect_uri=%s&response_type=code",
                 mClient.getAppID(), mClient.getAppSecret(), mClient.getAppRedirectURI());
         assertEquals(expected, url);
     }
